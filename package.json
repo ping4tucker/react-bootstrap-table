@@ -53,7 +53,7 @@
     "history": "3.0.0",
     "jquery": "^2.1.4",
     "jsx-loader": "^0.13.2",
-    "react": "^0.14.3 || ^15.0.0",
+    "react": "^15.0.0",
     "react-bootstrap": "^0.29.5",
     "react-dom": "^0.14.3 || ^15.0.0",
     "react-hot-loader": "^3.0.0-beta.6",
@@ -67,12 +67,13 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "react-toastr": "^2.9.5",
     "classnames": "^2.1.2",
-    "react-modal": "^1.4.0",
-    "@allenfang/react-toastr": "2.8.2"
+    "prop-types": "^15.6.2",
+    "react-modal": "^1.9.7"
   },
   "peerDependencies": {
-    "react": "^0.14.3 || ^15.0.0"
+    "react": "^15.0.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
